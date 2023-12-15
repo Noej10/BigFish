@@ -53,7 +53,13 @@ public class FreeBoardDao {
 	}
 
 
-	public int deleteBoard(SqlSessionTemplate sqlSession, int freeNo) {
+	//통합검색을 위해 만든 것 -고이환-
+	public ArrayList<FreeBoard> selectFreeList(SqlSessionTemplate sqlSession, String keyword) {
+		return (ArrayList)sqlSession.selectList("freeBoardMapper.selectFreeList", keyword);
+	}	
+	
+public int deleteBoard(SqlSessionTemplate sqlSession, int freeNo) {
+		
 
 		return sqlSession.update("freeBoardMapper.deleteBoard", freeNo);
 	}
@@ -114,4 +120,11 @@ public class FreeBoardDao {
 	}
 	
 	
+<<<<<<< HEAD
+=======
+	RowBounds rowBounds = new RowBounds(offset, limit);
+	return (ArrayList)sqlSession.selectList("freeBoardMapper.selectSearchList", map, rowBounds);
+}
+
+>>>>>>> 7985bbeb4df63d2171f3d7041cbb7ca1146a8e74
 }
