@@ -120,11 +120,10 @@ public int deleteBoard(SqlSessionTemplate sqlSession, int freeNo) {
 	}
 	
 	
-<<<<<<< HEAD
-=======
+
 	RowBounds rowBounds = new RowBounds(offset, limit);
 	return (ArrayList)sqlSession.selectList("freeBoardMapper.selectSearchList", map, rowBounds);
 }
 
->>>>>>> 7985bbeb4df63d2171f3d7041cbb7ca1146a8e74
+
 }
