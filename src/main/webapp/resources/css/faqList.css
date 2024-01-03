@@ -19,11 +19,11 @@
     margin-left: 70px;
 }
 .faq-btn-area{
-	width: 90%;
+	width: 22%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 700px;
+    margin-left: 1000px;
 }
 .faq-create-btn {
 	width: 90%;
