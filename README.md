@@ -37,6 +37,7 @@ Java Spring 낚시터 예약 등 종합 낚시사이트
 5. 프로젝트 클론 및 실행
 
 ## 🎣프로젝트 소개
+[프로젝트 소개 자세히 보기](https://docs.google.com/presentation/d/1BUWwXXjsYnEvFFIxaltLrmT9iHt2jfkWsnC7pZ980PE/edit?usp=sharing)
 이 프로젝트는 낚시를 좋아하는 사람들을 위한 기존 사이트를 참고하여 새로운 UI와 기능을 추가해보았습니다.
 
 주요 기능 및 특징
