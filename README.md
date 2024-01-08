@@ -4,19 +4,28 @@ Java Spring 낚시터 예약 등 종합 낚시사이트
 ## 기술 스택
 `Front-End` 
 
-<img src="https://img.shields.io/badge/html5-000000?style=flat-square&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/javascript-3178C6?style=flat-square&logo=javascript&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white">
+<img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white"/>
 
 `Back-end`
 
-<img src="https://img.shields.io/badge/oracle-E0234E?style=flat-square&logo=oracle&logoColor=white">
-<img src="https://img.shields.io/badge/spring-6DB33F?style=flat-square&logo=spring&logoColor=white">
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white">
+<img src="https://img.shields.io/badge/Oracle-E0234E?style=flat-square&logo=oracle&logoColor=white">
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white">
+<img src="https://img.shields.io/badge/MyBatis-000000?style=flat-square&logo=MyBatis&logoColor=white">
+
+`IDE`
+
+<img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipseide&logoColor=white">
+<img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white">
 
 `Communication`
 <img src="https://img.shields.io/badge/notion-000000?style=flat-square&logo=notion&logoColor=white">
 <img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white">
 
-## 사용 라이브러리및 API
+## 사용 API
 - TEXT 에디터 : Summernote
 - 다음 카카오 주소 및 지도 API
 - 카카오 Pay
