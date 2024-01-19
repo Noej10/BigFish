@@ -19,7 +19,8 @@
 	rel="stylesheet"
 	integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
 	crossorigin="anonymous">
-
+<script
+	src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 <!-- CSS-->
 <link rel="stylesheet"
 	href="<%=contextPath%>/resources/css/freeBoardList.css">
@@ -478,6 +479,7 @@
 	        }
 	    });
 	}	
+
 	function sample6_execDaumPostcode() {
 	    new daum.Postcode({
 	        oncomplete: function(data) {
@@ -525,7 +527,10 @@
 	        }
 	    }).open();
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3f8a50592f905619551677467891ee2e65aa7951
 	</script>
 </body>
 </html>
